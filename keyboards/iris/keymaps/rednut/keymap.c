@@ -78,9 +78,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,EXLM, AT ,HASH,DLR ,PERC,             CIRC,AMPR,ASTR,LPRN,RPRN,PIPE,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx, 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
+     LCTL, 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,PSCR,HOME,   END ,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
+     LSFT,xxxx,xxxx,xxxx,xxxx,PSCR,HOME,   END ,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+
@@ -91,11 +91,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,xxxx,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,xxxx,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+

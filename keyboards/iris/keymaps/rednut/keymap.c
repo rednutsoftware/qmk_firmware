@@ -89,13 +89,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // UPPER
   [_L_UPPER] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     F12 ,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,F11 ,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,VOLU,
+     xxxx, F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLD,
+     LCTL,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
+     LSFT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+

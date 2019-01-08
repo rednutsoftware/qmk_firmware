@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // Rednut Base Layout (modified Eucalyn)
   [_L_REDNUT] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     GRV , 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      ESC , Q  , W  , E  ,COMM,DOT ,              M  , R  , D  , Y  , P  ,BSLS,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
@@ -74,9 +74,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // LOWER
   [_L_LOWER] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     F12 , F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,F11 ,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,EXLM, AT ,HASH,DLR ,PERC,             CIRC,AMPR,ASTR,LPRN,RPRN,PIPE,
+     GRV ,EXLM, AT ,HASH,DLR ,PERC,             CIRC,AMPR,ASTR,LPRN,RPRN,PIPE,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      LCTL, 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
@@ -89,9 +89,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // UPPER
   [_L_UPPER] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     F12 ,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,F11 ,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx, F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,VOLU,
+     GRV , F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      LCTL,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
@@ -104,9 +104,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ADJUST (LOWER + UPPER)
   [_L_ADJUST] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     RST ,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,CAD ,
-  //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+  //+----+----+----+----+----+----+            +----+----+----+----+----+----+
+     RST ,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,CAD ,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+

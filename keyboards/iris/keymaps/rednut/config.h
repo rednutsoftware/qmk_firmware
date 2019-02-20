@@ -37,4 +37,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* for fast typing */
 #define PERMISSIVE_HOLD
+#define TAPPING_FORCE_HOLD
 
+/* EOF */

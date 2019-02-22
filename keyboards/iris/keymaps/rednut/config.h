@@ -36,7 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_VAL_STEP 8
 
 /* for fast typing */
-#define TAPPING_TERM 100
+#define TAPPING_TERM 125
 #define PERMISSIVE_HOLD
 #define TAPPING_FORCE_HOLD
 

@@ -93,7 +93,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      GRV , F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     LCTL,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLD,
+     LCTL,F11 ,F12 ,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,LBRC,RBRC,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
      LSFT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+

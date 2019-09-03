@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      LCTL, 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     LSFT,xxxx,xxxx,xxxx,xxxx,PSCR,HOME,   END ,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
+     LSFT,xxxx, X  ,xxxx,xxxx,PSCR,HOME,   END ,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+

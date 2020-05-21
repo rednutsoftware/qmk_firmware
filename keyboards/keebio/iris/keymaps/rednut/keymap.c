@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      cTAB, A  , O  , U  , I  ,SCLN,              G  , T  , K  , S  , N  ,QUOT,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     LSFT, Z  , X  , C  , V  , F  ,LBRC,   RBRC, B  , H  , J  , L  ,SLSH,EQL ,
+     LSFT, Z  , X  , C  , V  , F  ,xxxx,   xxxx, B  , H  , J  , L  ,SLSH,EQL ,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          aHNK,cSPC,lDEL,   uBS ,sENT,wMHN
                       //+----+----+----+  +----+----+----+
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      LCTL, 1  , 2  , 3  , 4  , 5  ,              6  , 7  , 8  , 9  , 0  ,MINS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     LSFT,xxxx, X  ,xxxx,xxxx,PSCR,HOME,   END ,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
+     LSFT,xxxx, X  ,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,UNDS,COMM,DOT ,QUES,PLUS,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+
@@ -91,11 +91,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     GRV , F1 , F2 , F3 , F4 , F5 ,              F6 , F7 , F8 , F9 ,F10 ,VOLU,
+     GRV , F1 , F2 , F3 , F4 , F5 ,             xxxx,xxxx,xxxx,LCBR,RCBR,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     LCTL,F11 ,F12 ,xxxx,xxxx,xxxx,             xxxx,xxxx, UP ,LBRC,RBRC,VOLD,
+     LCTL, F6 , F7 , F8 , F9 ,F10 ,             PSCR,xxxx, UP ,LBRC,RBRC,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     LSFT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
+     LSFT,F11 ,F12 ,xxxx,xxxx,xxxx,xxxx,   xxxx,HOME,LEFT,DOWN,RGHT,END ,MUTE,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          LALT,LCTL,LWR ,   UPR ,LSFT,LGUI 
                       //+----+----+----+  +----+----+----+
@@ -110,7 +110,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,QWER,   RDNT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          MCR1,MCR2,LWR ,   UPR ,MCR3,MCR4 
                       //+----+----+----+  +----+----+----+

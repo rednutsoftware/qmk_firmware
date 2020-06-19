@@ -12,11 +12,13 @@ enum custom_layers {
   _L_LOWER,
   _L_RAISE,
   _L_ADJUST,
+  _L_GAME,
 };
 
 enum custom_keycodes {
   _K_REDNUT = SAFE_RANGE,
   _K_QWERTY,
+  _K_GAME,
   _K_LOWER,
   _K_RAISE,
   _K_ADJUST,
@@ -28,6 +30,7 @@ enum custom_keycodes {
 
 #define KC_RDNT DF(_L_REDNUT)
 #define KC_QWER DF(_L_QWERTY)
+#define KC_GAME DF(_L_GAME)
 
 #define KC_LOWE _K_LOWER
 #define KC_RAIS _K_RAISE
@@ -39,6 +42,7 @@ enum custom_keycodes {
 
 #define KC_     KC_TRNS
 #define KC_xxxx KC_NO
+
 
 #define KC_RST  RESET
 
@@ -109,9 +113,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      RST ,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,CAD ,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     GAME,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     RDNT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          MCR1,MCR2,LOWE,   RAIS,MCR3,MCR4 
                       //+----+----+----+  +----+----+----+
@@ -133,6 +137,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                       //+----+----+----+  +----+----+----+
   ),
 #endif
+
+  // GAME
+  [_L_GAME] = LAYOUT_kc(
+  //+----+----+----+----+----+----+            +----+----+----+----+----+----+
+     xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+  //+----+----+----+----+----+----+            +----+----+----+----+----+----+
+     GRV ,xxxx,xxxx, S  ,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLU,
+  //+----+----+----+----+----+----+            +----+----+----+----+----+----+
+     GAME,xxxx, A  , Z  , X  ,xxxx,             xxxx,LEFT,DOWN,RGHT,xxxx,VOLD,
+  //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
+     RDNT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,MUTE,
+  //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
+                         RSFT, Q  ,xxxx,   xxxx, W  ,ENT 
+                      //+----+----+----+  +----+----+----+
+  ),
 
 };
 

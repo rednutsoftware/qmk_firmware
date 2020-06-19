@@ -145,9 +145,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
      GRV ,xxxx,xxxx, S  ,xxxx,xxxx,             xxxx,xxxx, UP ,xxxx,xxxx,VOLU,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     GAME,xxxx, A  , Z  , X  ,xxxx,             xxxx,LEFT,DOWN,RGHT,xxxx,VOLD,
+     GAME,xxxx, A  , S  , X  ,xxxx,             xxxx,LEFT, UP ,RGHT,xxxx,VOLD,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
-     RDNT,xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,   xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,MUTE,
+     RDNT,xxxx, A  , Z  , X  ,xxxx,xxxx,   xxxx,xxxx,LEFT,DOWN,RGHT,xxxx,MUTE,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          RSFT, Q  ,xxxx,   xxxx, W  ,ENT 
                       //+----+----+----+  +----+----+----+

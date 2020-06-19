@@ -51,15 +51,21 @@ enum custom_keycodes {
 
 #define KC_RST   RESET
 
-#define KC_LRST  _K_RGBRST
-#define KC_LTOG  RGB_TOG
-#define KC_LHUI  RGB_HUI
-#define KC_LHUD  RGB_HUD
-#define KC_LSAI  RGB_SAI
-#define KC_LSAD  RGB_SAD
-#define KC_LVAI  RGB_VAI
-#define KC_LVAD  RGB_VAD
-#define KC_LMOD  RGB_MOD
+#define KC_RRST  _K_RGBRST
+#define KC_RTOG  RGB_TOG
+#define KC_RHUI  RGB_HUI
+#define KC_RHUD  RGB_HUD
+#define KC_RSAI  RGB_SAI
+#define KC_RSAD  RGB_SAD
+#define KC_RVAI  RGB_VAI
+#define KC_RVAD  RGB_VAD
+#define KC_RMOD  RGB_MOD
+
+#define KC_BTOG  BL_TOGG
+#define KC_BLI   BL_INC
+#define KC_BLD   BL_DEC
+#define KC_BRTG  BL_BRTG
+
 
 #define KC_cTAB LCTL_T(KC_TAB)
 
@@ -118,11 +124,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ADJUST (LOWER + RAISE)
   [_L_ADJUST] = LAYOUT_kc(
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     RST ,LRST,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,CAD ,
+     RST ,RRST,xxxx,xxxx,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,CAD ,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     LTOG,LHUI,LSAI,LVAI,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     RTOG,RHUI,RSAI,RVAI,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+            +----+----+----+----+----+----+
-     LMOD,LHUD,LSAD,LVAD,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
+     RMOD,RHUD,RSAD,RVAD,xxxx,xxxx,             xxxx,xxxx,xxxx,xxxx,xxxx,xxxx,
   //+----+----+----+----+----+----+----+  +----+----+----+----+----+----+----+
                          MCR1,MCR2,LOWE,   RAIS,MCR3,MCR4 
                       //+----+----+----+  +----+----+----+

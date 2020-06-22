@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#undef PRODUCT
+#define PRODUCT		Corne Keybord [US] (Rednut Layout)
+
 //#define USE_MATRIX_I2C
 
 /* Select hand configuration */

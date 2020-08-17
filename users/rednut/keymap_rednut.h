@@ -205,6 +205,7 @@ void matrix_scan_user(void) {
 }
 
 void matrix_render_user(struct CharacterMatrix *matrix) {
+#ifdef DEBUG_CRKBD
   if (is_master) {
     // If you want to change the display of OLED, you need to change here
     matrix_write_ln(matrix, read_layer_state());
@@ -216,6 +217,9 @@ void matrix_render_user(struct CharacterMatrix *matrix) {
   } else {
     matrix_write(matrix, read_logo());
   }
+#else
+  matrix_write(matrix, read_logo());
+#endif
 }
 
 void matrix_update(struct CharacterMatrix *dest, const struct CharacterMatrix *source) {
